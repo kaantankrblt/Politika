@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C63CA0772C3E6E0100C56ED7 /* PolitikaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0762C3E6E0100C56ED7 /* PolitikaApp.swift */; };
+		C63CA07B2C3E6E0300C56ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63CA07A2C3E6E0300C56ED7 /* Assets.xcassets */; };
+		C63CA07E2C3E6E0300C56ED7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63CA07D2C3E6E0300C56ED7 /* Preview Assets.xcassets */; };
+		C63CA0862C3E6EAB00C56ED7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C63CA0852C3E6EAB00C56ED7 /* FirebaseAnalytics */; };
+		C63CA0882C3E6EAB00C56ED7 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = C63CA0872C3E6EAB00C56ED7 /* FirebaseAppCheck */; };
+		C63CA08A2C3E6EAB00C56ED7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C63CA0892C3E6EAB00C56ED7 /* FirebaseAuth */; };
+		C63CA08C2C3E6EAB00C56ED7 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = C63CA08B2C3E6EAB00C56ED7 /* FirebaseCrashlytics */; };
+		C63CA08E2C3E6EAB00C56ED7 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C63CA08D2C3E6EAB00C56ED7 /* FirebaseDatabase */; };
+		C63CA0902C3E6EAB00C56ED7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C63CA08F2C3E6EAB00C56ED7 /* FirebaseFirestore */; };
+		C63CA0922C3E6EAB00C56ED7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C63CA0912C3E6EAB00C56ED7 /* FirebaseStorage */; };
+		C63CA0942C3E6EC200C56ED7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C63CA0932C3E6EC200C56ED7 /* GoogleService-Info.plist */; };
+		C63CA0B62C3E6EED00C56ED7 /* TurAgriForest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA09A2C3E6EED00C56ED7 /* TurAgriForest.swift */; };
+		C63CA0B72C3E6EED00C56ED7 /* TurBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA09B2C3E6EED00C56ED7 /* TurBank.swift */; };
+		C63CA0B82C3E6EED00C56ED7 /* TurDefense.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA09C2C3E6EED00C56ED7 /* TurDefense.swift */; };
+		C63CA0B92C3E6EED00C56ED7 /* TurEdu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA09D2C3E6EED00C56ED7 /* TurEdu.swift */; };
+		C63CA0BA2C3E6EED00C56ED7 /* TurEnergy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA09E2C3E6EED00C56ED7 /* TurEnergy.swift */; };
+		C63CA0BB2C3E6EED00C56ED7 /* TurEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA09F2C3E6EED00C56ED7 /* TurEnv.swift */; };
+		C63CA0BC2C3E6EED00C56ED7 /* TurFamSocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0A02C3E6EED00C56ED7 /* TurFamSocial.swift */; };
+		C63CA0BD2C3E6EED00C56ED7 /* TurForeign.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0A12C3E6EED00C56ED7 /* TurForeign.swift */; };
+		C63CA0BE2C3E6EED00C56ED7 /* TurHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0A22C3E6EED00C56ED7 /* TurHealth.swift */; };
+		C63CA0BF2C3E6EED00C56ED7 /* TurIndTech.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0A32C3E6EED00C56ED7 /* TurIndTech.swift */; };
+		C63CA0C02C3E6EED00C56ED7 /* TurInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0A42C3E6EED00C56ED7 /* TurInt.swift */; };
+		C63CA0C12C3E6EED00C56ED7 /* TurJustice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0A52C3E6EED00C56ED7 /* TurJustice.swift */; };
+		C63CA0C22C3E6EED00C56ED7 /* TurLaborSocialSec.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0A62C3E6EED00C56ED7 /* TurLaborSocialSec.swift */; };
+		C63CA0C32C3E6EED00C56ED7 /* TurPres.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0A72C3E6EED00C56ED7 /* TurPres.swift */; };
+		C63CA0C42C3E6EED00C56ED7 /* TurSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0A82C3E6EED00C56ED7 /* TurSport.swift */; };
+		C63CA0C52C3E6EED00C56ED7 /* TurTourism.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0A92C3E6EED00C56ED7 /* TurTourism.swift */; };
+		C63CA0C62C3E6EED00C56ED7 /* TurTrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0AA2C3E6EED00C56ED7 /* TurTrade.swift */; };
+		C63CA0C72C3E6EED00C56ED7 /* TurTraInf.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0AB2C3E6EED00C56ED7 /* TurTraInf.swift */; };
+		C63CA0C82C3E6EED00C56ED7 /* TurTreaFin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0AC2C3E6EED00C56ED7 /* TurTreaFin.swift */; };
+		C63CA0C92C3E6EED00C56ED7 /* TurVicePres.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0AD2C3E6EED00C56ED7 /* TurVicePres.swift */; };
+		C63CA0CA2C3E6EED00C56ED7 /* TurData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0AF2C3E6EED00C56ED7 /* TurData.swift */; };
+		C63CA0CD2C3E72F300C56ED7 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0CB2C3E72F300C56ED7 /* ExploreView.swift */; };
+		C63CA0D32C3E732100C56ED7 /* TurPoliticianListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0D02C3E732100C56ED7 /* TurPoliticianListView.swift */; };
+		C63CA0E52C3E733500C56ED7 /* Politician.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0E22C3E733500C56ED7 /* Politician.swift */; };
+		C63CA0E62C3E733500C56ED7 /* PoliticianView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0E32C3E733500C56ED7 /* PoliticianView.swift */; };
+		C63CA0E82C3E73D200C56ED7 /* PolitikaTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CA0E72C3E73D200C56ED7 /* PolitikaTabView.swift */; };
+		C67B76822C3EAA7800008D50 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B76792C3EAA7800008D50 /* AuthService.swift */; };
+		C67B76832C3EAA7800008D50 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B767B2C3EAA7800008D50 /* LoginViewModel.swift */; };
+		C67B76842C3EAA7800008D50 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B767C2C3EAA7800008D50 /* RegistrationViewModel.swift */; };
+		C67B76852C3EAA7800008D50 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B767E2C3EAA7800008D50 /* LoginView.swift */; };
+		C67B76862C3EAA7800008D50 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B767F2C3EAA7800008D50 /* RegistrationView.swift */; };
+		C67B76892C3EAAFA00008D50 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C67B76882C3EAAFA00008D50 /* FirebaseFirestoreSwift */; };
+		C67B768E2C3EABF100008D50 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B768A2C3EABF100008D50 /* ImageUploader.swift */; };
+		C67B76902C3EABF100008D50 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B768C2C3EABF100008D50 /* UserService.swift */; };
+		C67B76952C3EAC2B00008D50 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B76922C3EAC2B00008D50 /* User.swift */; };
+		C67B76982C3EAD5400008D50 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C67B76972C3EAD5400008D50 /* Kingfisher */; };
+		C67B769D2C3EAE0700008D50 /* PolitikaTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B76992C3EAE0700008D50 /* PolitikaTextFieldModifier.swift */; };
+		C67B76A42C3EB55000008D50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B769F2C3EB55000008D50 /* ContentView.swift */; };
+		C67B76A52C3EB55000008D50 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B76A12C3EB55000008D50 /* ContentViewModel.swift */; };
+		C67B76BE2C3ECDA500008D50 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B76AC2C3ECDA500008D50 /* CurrentUserProfileView.swift */; };
+		C67B76BF2C3ECDA500008D50 /* CurrentUserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B76AE2C3ECDA500008D50 /* CurrentUserProfileViewModel.swift */; };
+		C67B76C02C3ECDA500008D50 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B76B12C3ECDA500008D50 /* EditProfileView.swift */; };
+		C67B76C12C3ECDA500008D50 /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B76B32C3ECDA500008D50 /* EditProfileViewModel.swift */; };
+		C67B76C82C3ECDDB00008D50 /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B76C42C3ECDDB00008D50 /* CircularProfileImageView.swift */; };
+		C67B76CA2C3ECDDB00008D50 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B76C62C3ECDDB00008D50 /* UserCell.swift */; };
+		C67B76CE2C3ECE0100008D50 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B76CB2C3ECE0100008D50 /* PreviewProvider.swift */; };
+		C67B76CF2C3ECE0100008D50 /* Timestamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B76CC2C3ECE0100008D50 /* Timestamp.swift */; };
+		C67B76D12C3ECFFA00008D50 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B76D02C3ECFFA00008D50 /* ProfileHeaderView.swift */; };
+		C67B76E42C3EF46200008D50 /* PoliticianUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B76E32C3EF46200008D50 /* PoliticianUpload.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C63CA0732C3E6E0100C56ED7 /* Politika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Politika.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63CA0762C3E6E0100C56ED7 /* PolitikaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolitikaApp.swift; sourceTree = "<group>"; };
+		C63CA07A2C3E6E0300C56ED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C63CA07D2C3E6E0300C56ED7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C63CA0932C3E6EC200C56ED7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C63CA09A2C3E6EED00C56ED7 /* TurAgriForest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurAgriForest.swift; sourceTree = "<group>"; };
+		C63CA09B2C3E6EED00C56ED7 /* TurBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurBank.swift; sourceTree = "<group>"; };
+		C63CA09C2C3E6EED00C56ED7 /* TurDefense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurDefense.swift; sourceTree = "<group>"; };
+		C63CA09D2C3E6EED00C56ED7 /* TurEdu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurEdu.swift; sourceTree = "<group>"; };
+		C63CA09E2C3E6EED00C56ED7 /* TurEnergy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurEnergy.swift; sourceTree = "<group>"; };
+		C63CA09F2C3E6EED00C56ED7 /* TurEnv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurEnv.swift; sourceTree = "<group>"; };
+		C63CA0A02C3E6EED00C56ED7 /* TurFamSocial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurFamSocial.swift; sourceTree = "<group>"; };
+		C63CA0A12C3E6EED00C56ED7 /* TurForeign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurForeign.swift; sourceTree = "<group>"; };
+		C63CA0A22C3E6EED00C56ED7 /* TurHealth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurHealth.swift; sourceTree = "<group>"; };
+		C63CA0A32C3E6EED00C56ED7 /* TurIndTech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurIndTech.swift; sourceTree = "<group>"; };
+		C63CA0A42C3E6EED00C56ED7 /* TurInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurInt.swift; sourceTree = "<group>"; };
+		C63CA0A52C3E6EED00C56ED7 /* TurJustice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurJustice.swift; sourceTree = "<group>"; };
+		C63CA0A62C3E6EED00C56ED7 /* TurLaborSocialSec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurLaborSocialSec.swift; sourceTree = "<group>"; };
+		C63CA0A72C3E6EED00C56ED7 /* TurPres.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurPres.swift; sourceTree = "<group>"; };
+		C63CA0A82C3E6EED00C56ED7 /* TurSport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurSport.swift; sourceTree = "<group>"; };
+		C63CA0A92C3E6EED00C56ED7 /* TurTourism.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurTourism.swift; sourceTree = "<group>"; };
+		C63CA0AA2C3E6EED00C56ED7 /* TurTrade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurTrade.swift; sourceTree = "<group>"; };
+		C63CA0AB2C3E6EED00C56ED7 /* TurTraInf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurTraInf.swift; sourceTree = "<group>"; };
+		C63CA0AC2C3E6EED00C56ED7 /* TurTreaFin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurTreaFin.swift; sourceTree = "<group>"; };
+		C63CA0AD2C3E6EED00C56ED7 /* TurVicePres.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurVicePres.swift; sourceTree = "<group>"; };
+		C63CA0AF2C3E6EED00C56ED7 /* TurData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurData.swift; sourceTree = "<group>"; };
+		C63CA0CB2C3E72F300C56ED7 /* ExploreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		C63CA0D02C3E732100C56ED7 /* TurPoliticianListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurPoliticianListView.swift; sourceTree = "<group>"; };
+		C63CA0E22C3E733500C56ED7 /* Politician.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Politician.swift; sourceTree = "<group>"; };
+		C63CA0E32C3E733500C56ED7 /* PoliticianView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoliticianView.swift; sourceTree = "<group>"; };
+		C63CA0E72C3E73D200C56ED7 /* PolitikaTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolitikaTabView.swift; sourceTree = "<group>"; };
+		C67B76792C3EAA7800008D50 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		C67B767B2C3EAA7800008D50 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		C67B767C2C3EAA7800008D50 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		C67B767E2C3EAA7800008D50 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C67B767F2C3EAA7800008D50 /* RegistrationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		C67B768A2C3EABF100008D50 /* ImageUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		C67B768C2C3EABF100008D50 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		C67B76922C3EAC2B00008D50 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C67B76992C3EAE0700008D50 /* PolitikaTextFieldModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolitikaTextFieldModifier.swift; sourceTree = "<group>"; };
+		C67B769F2C3EB55000008D50 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C67B76A12C3EB55000008D50 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		C67B76AC2C3ECDA500008D50 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		C67B76AE2C3ECDA500008D50 /* CurrentUserProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileViewModel.swift; sourceTree = "<group>"; };
+		C67B76B12C3ECDA500008D50 /* EditProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		C67B76B32C3ECDA500008D50 /* EditProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
+		C67B76C42C3ECDDB00008D50 /* CircularProfileImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
+		C67B76C62C3ECDDB00008D50 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		C67B76CB2C3ECE0100008D50 /* PreviewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		C67B76CC2C3ECE0100008D50 /* Timestamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timestamp.swift; sourceTree = "<group>"; };
+		C67B76D02C3ECFFA00008D50 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		C67B76E32C3EF46200008D50 /* PoliticianUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticianUpload.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C63CA0702C3E6E0100C56ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63CA08E2C3E6EAB00C56ED7 /* FirebaseDatabase in Frameworks */,
+				C63CA0882C3E6EAB00C56ED7 /* FirebaseAppCheck in Frameworks */,
+				C63CA08C2C3E6EAB00C56ED7 /* FirebaseCrashlytics in Frameworks */,
+				C67B76982C3EAD5400008D50 /* Kingfisher in Frameworks */,
+				C63CA08A2C3E6EAB00C56ED7 /* FirebaseAuth in Frameworks */,
+				C63CA0922C3E6EAB00C56ED7 /* FirebaseStorage in Frameworks */,
+				C63CA0862C3E6EAB00C56ED7 /* FirebaseAnalytics in Frameworks */,
+				C63CA0902C3E6EAB00C56ED7 /* FirebaseFirestore in Frameworks */,
+				C67B76892C3EAAFA00008D50 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C63CA06A2C3E6E0100C56ED7 = {
+			isa = PBXGroup;
+			children = (
+				C67B76D22C3EE59E00008D50 /* Test */,
+				C63CA0752C3E6E0100C56ED7 /* Politika */,
+				C63CA0742C3E6E0100C56ED7 /* Products */,
+				C67B76872C3EAAFA00008D50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C63CA0742C3E6E0100C56ED7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C63CA0732C3E6E0100C56ED7 /* Politika.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C63CA0752C3E6E0100C56ED7 /* Politika */ = {
+			isa = PBXGroup;
+			children = (
+				C67B76812C3EAA7800008D50 /* Authentication */,
+				C67B76C72C3ECDDB00008D50 /* Components */,
+				C63CA0CE2C3E72FB00C56ED7 /* Core */,
+				C63CA0B12C3E6EED00C56ED7 /* Data */,
+				C63CA0CC2C3E72F300C56ED7 /* Explore */,
+				C67B76CD2C3ECE0100008D50 /* Extensions */,
+				C63CA0D12C3E732100C56ED7 /* Feed */,
+				C67B76932C3EAC2B00008D50 /* Model */,
+				C63CA0E42C3E733500C56ED7 /* Politician */,
+				C63CA07C2C3E6E0300C56ED7 /* Preview Content */,
+				C67B76BA2C3ECDA500008D50 /* Profile */,
+				C67B76A32C3EB55000008D50 /* Root */,
+				C67B768D2C3EABF100008D50 /* Services */,
+				C67B769C2C3EAE0700008D50 /* Utils */,
+				C63CA07A2C3E6E0300C56ED7 /* Assets.xcassets */,
+			);
+			path = Politika;
+			sourceTree = "<group>";
+		};
+		C63CA07C2C3E6E0300C56ED7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C63CA07D2C3E6E0300C56ED7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C63CA0AE2C3E6EED00C56ED7 /* Politician */ = {
+			isa = PBXGroup;
+			children = (
+				C63CA09A2C3E6EED00C56ED7 /* TurAgriForest.swift */,
+				C63CA09B2C3E6EED00C56ED7 /* TurBank.swift */,
+				C63CA09C2C3E6EED00C56ED7 /* TurDefense.swift */,
+				C63CA09D2C3E6EED00C56ED7 /* TurEdu.swift */,
+				C63CA09E2C3E6EED00C56ED7 /* TurEnergy.swift */,
+				C63CA09F2C3E6EED00C56ED7 /* TurEnv.swift */,
+				C63CA0A02C3E6EED00C56ED7 /* TurFamSocial.swift */,
+				C63CA0A12C3E6EED00C56ED7 /* TurForeign.swift */,
+				C63CA0A22C3E6EED00C56ED7 /* TurHealth.swift */,
+				C63CA0A32C3E6EED00C56ED7 /* TurIndTech.swift */,
+				C63CA0A42C3E6EED00C56ED7 /* TurInt.swift */,
+				C63CA0A52C3E6EED00C56ED7 /* TurJustice.swift */,
+				C63CA0A62C3E6EED00C56ED7 /* TurLaborSocialSec.swift */,
+				C63CA0A72C3E6EED00C56ED7 /* TurPres.swift */,
+				C63CA0A82C3E6EED00C56ED7 /* TurSport.swift */,
+				C63CA0A92C3E6EED00C56ED7 /* TurTourism.swift */,
+				C63CA0AA2C3E6EED00C56ED7 /* TurTrade.swift */,
+				C63CA0AB2C3E6EED00C56ED7 /* TurTraInf.swift */,
+				C63CA0AC2C3E6EED00C56ED7 /* TurTreaFin.swift */,
+				C63CA0AD2C3E6EED00C56ED7 /* TurVicePres.swift */,
+			);
+			path = Politician;
+			sourceTree = "<group>";
+		};
+		C63CA0B02C3E6EED00C56ED7 /* Turkey */ = {
+			isa = PBXGroup;
+			children = (
+				C63CA0AF2C3E6EED00C56ED7 /* TurData.swift */,
+				C63CA0AE2C3E6EED00C56ED7 /* Politician */,
+			);
+			path = Turkey;
+			sourceTree = "<group>";
+		};
+		C63CA0B12C3E6EED00C56ED7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C63CA0B02C3E6EED00C56ED7 /* Turkey */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C63CA0CC2C3E72F300C56ED7 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				C63CA0CB2C3E72F300C56ED7 /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		C63CA0CE2C3E72FB00C56ED7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C63CA0E72C3E73D200C56ED7 /* PolitikaTabView.swift */,
+				C63CA0762C3E6E0100C56ED7 /* PolitikaApp.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C63CA0D12C3E732100C56ED7 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				C63CA0D02C3E732100C56ED7 /* TurPoliticianListView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		C63CA0E42C3E733500C56ED7 /* Politician */ = {
+			isa = PBXGroup;
+			children = (
+				C63CA0E22C3E733500C56ED7 /* Politician.swift */,
+				C67B76E32C3EF46200008D50 /* PoliticianUpload.swift */,
+				C63CA0E32C3E733500C56ED7 /* PoliticianView.swift */,
+			);
+			path = Politician;
+			sourceTree = "<group>";
+		};
+		C67B767A2C3EAA7800008D50 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C67B76792C3EAA7800008D50 /* AuthService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C67B767D2C3EAA7800008D50 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C67B767B2C3EAA7800008D50 /* LoginViewModel.swift */,
+				C67B767C2C3EAA7800008D50 /* RegistrationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C67B76802C3EAA7800008D50 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C67B767E2C3EAA7800008D50 /* LoginView.swift */,
+				C67B767F2C3EAA7800008D50 /* RegistrationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C67B76812C3EAA7800008D50 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				C67B767A2C3EAA7800008D50 /* Service */,
+				C67B767D2C3EAA7800008D50 /* ViewModel */,
+				C67B76802C3EAA7800008D50 /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		C67B76872C3EAAFA00008D50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C67B768D2C3EABF100008D50 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C67B768A2C3EABF100008D50 /* ImageUploader.swift */,
+				C67B768C2C3EABF100008D50 /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C67B76932C3EAC2B00008D50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C67B76922C3EAC2B00008D50 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C67B769A2C3EAE0700008D50 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				C67B76992C3EAE0700008D50 /* PolitikaTextFieldModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		C67B769C2C3EAE0700008D50 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C63CA0932C3E6EC200C56ED7 /* GoogleService-Info.plist */,
+				C67B769A2C3EAE0700008D50 /* ViewModifiers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C67B76A02C3EB55000008D50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C67B769F2C3EB55000008D50 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C67B76A22C3EB55000008D50 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C67B76A12C3EB55000008D50 /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C67B76A32C3EB55000008D50 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				C67B76A02C3EB55000008D50 /* View */,
+				C67B76A22C3EB55000008D50 /* ViewModel */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		C67B76AB2C3ECDA500008D50 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C67B76D02C3ECFFA00008D50 /* ProfileHeaderView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C67B76AD2C3ECDA500008D50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C67B76AC2C3ECDA500008D50 /* CurrentUserProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C67B76AF2C3ECDA500008D50 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C67B76AE2C3ECDA500008D50 /* CurrentUserProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C67B76B02C3ECDA500008D50 /* CurrentUserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				C67B76AD2C3ECDA500008D50 /* View */,
+				C67B76AF2C3ECDA500008D50 /* ViewModel */,
+			);
+			path = CurrentUserProfile;
+			sourceTree = "<group>";
+		};
+		C67B76B22C3ECDA500008D50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C67B76B12C3ECDA500008D50 /* EditProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C67B76B42C3ECDA500008D50 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C67B76B32C3ECDA500008D50 /* EditProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C67B76B52C3ECDA500008D50 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				C67B76B22C3ECDA500008D50 /* View */,
+				C67B76B42C3ECDA500008D50 /* ViewModel */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		C67B76BA2C3ECDA500008D50 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C67B76AB2C3ECDA500008D50 /* Components */,
+				C67B76B02C3ECDA500008D50 /* CurrentUserProfile */,
+				C67B76B52C3ECDA500008D50 /* EditProfile */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C67B76C72C3ECDDB00008D50 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C67B76C42C3ECDDB00008D50 /* CircularProfileImageView.swift */,
+				C67B76C62C3ECDDB00008D50 /* UserCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C67B76CD2C3ECE0100008D50 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C67B76CB2C3ECE0100008D50 /* PreviewProvider.swift */,
+				C67B76CC2C3ECE0100008D50 /* Timestamp.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C67B76D22C3EE59E00008D50 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C63CA0722C3E6E0100C56ED7 /* Politika */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63CA0812C3E6E0300C56ED7 /* Build configuration list for PBXNativeTarget "Politika" */;
+			buildPhases = (
+				C63CA06F2C3E6E0100C56ED7 /* Sources */,
+				C63CA0702C3E6E0100C56ED7 /* Frameworks */,
+				C63CA0712C3E6E0100C56ED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Politika;
+			packageProductDependencies = (
+				C63CA0852C3E6EAB00C56ED7 /* FirebaseAnalytics */,
+				C63CA0872C3E6EAB00C56ED7 /* FirebaseAppCheck */,
+				C63CA0892C3E6EAB00C56ED7 /* FirebaseAuth */,
+				C63CA08B2C3E6EAB00C56ED7 /* FirebaseCrashlytics */,
+				C63CA08D2C3E6EAB00C56ED7 /* FirebaseDatabase */,
+				C63CA08F2C3E6EAB00C56ED7 /* FirebaseFirestore */,
+				C63CA0912C3E6EAB00C56ED7 /* FirebaseStorage */,
+				C67B76882C3EAAFA00008D50 /* FirebaseFirestoreSwift */,
+				C67B76972C3EAD5400008D50 /* Kingfisher */,
+			);
+			productName = Politika;
+			productReference = C63CA0732C3E6E0100C56ED7 /* Politika.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C63CA06B2C3E6E0100C56ED7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C63CA0722C3E6E0100C56ED7 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C63CA06E2C3E6E0100C56ED7 /* Build configuration list for PBXProject "Politika" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C63CA06A2C3E6E0100C56ED7;
+			packageReferences = (
+				C63CA0842C3E6EAB00C56ED7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C67B76962C3EAD5400008D50 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = C63CA0742C3E6E0100C56ED7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C63CA0722C3E6E0100C56ED7 /* Politika */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C63CA0712C3E6E0100C56ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63CA07E2C3E6E0300C56ED7 /* Preview Assets.xcassets in Resources */,
+				C63CA07B2C3E6E0300C56ED7 /* Assets.xcassets in Resources */,
+				C63CA0942C3E6EC200C56ED7 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C63CA06F2C3E6E0100C56ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63CA0C72C3E6EED00C56ED7 /* TurTraInf.swift in Sources */,
+				C67B76A42C3EB55000008D50 /* ContentView.swift in Sources */,
+				C67B76E42C3EF46200008D50 /* PoliticianUpload.swift in Sources */,
+				C63CA0E52C3E733500C56ED7 /* Politician.swift in Sources */,
+				C67B76832C3EAA7800008D50 /* LoginViewModel.swift in Sources */,
+				C63CA0BD2C3E6EED00C56ED7 /* TurForeign.swift in Sources */,
+				C63CA0B82C3E6EED00C56ED7 /* TurDefense.swift in Sources */,
+				C67B76852C3EAA7800008D50 /* LoginView.swift in Sources */,
+				C67B76BF2C3ECDA500008D50 /* CurrentUserProfileViewModel.swift in Sources */,
+				C67B76822C3EAA7800008D50 /* AuthService.swift in Sources */,
+				C67B76CE2C3ECE0100008D50 /* PreviewProvider.swift in Sources */,
+				C63CA0C62C3E6EED00C56ED7 /* TurTrade.swift in Sources */,
+				C67B76862C3EAA7800008D50 /* RegistrationView.swift in Sources */,
+				C67B76C82C3ECDDB00008D50 /* CircularProfileImageView.swift in Sources */,
+				C63CA0D32C3E732100C56ED7 /* TurPoliticianListView.swift in Sources */,
+				C63CA0C92C3E6EED00C56ED7 /* TurVicePres.swift in Sources */,
+				C67B76C02C3ECDA500008D50 /* EditProfileView.swift in Sources */,
+				C67B76CF2C3ECE0100008D50 /* Timestamp.swift in Sources */,
+				C63CA0CA2C3E6EED00C56ED7 /* TurData.swift in Sources */,
+				C63CA0BF2C3E6EED00C56ED7 /* TurIndTech.swift in Sources */,
+				C63CA0B62C3E6EED00C56ED7 /* TurAgriForest.swift in Sources */,
+				C63CA0C02C3E6EED00C56ED7 /* TurInt.swift in Sources */,
+				C67B76BE2C3ECDA500008D50 /* CurrentUserProfileView.swift in Sources */,
+				C67B76952C3EAC2B00008D50 /* User.swift in Sources */,
+				C63CA0E62C3E733500C56ED7 /* PoliticianView.swift in Sources */,
+				C63CA0C52C3E6EED00C56ED7 /* TurTourism.swift in Sources */,
+				C63CA0CD2C3E72F300C56ED7 /* ExploreView.swift in Sources */,
+				C63CA0C32C3E6EED00C56ED7 /* TurPres.swift in Sources */,
+				C67B768E2C3EABF100008D50 /* ImageUploader.swift in Sources */,
+				C63CA0C12C3E6EED00C56ED7 /* TurJustice.swift in Sources */,
+				C63CA0B92C3E6EED00C56ED7 /* TurEdu.swift in Sources */,
+				C63CA0BE2C3E6EED00C56ED7 /* TurHealth.swift in Sources */,
+				C63CA0BB2C3E6EED00C56ED7 /* TurEnv.swift in Sources */,
+				C63CA0E82C3E73D200C56ED7 /* PolitikaTabView.swift in Sources */,
+				C63CA0C42C3E6EED00C56ED7 /* TurSport.swift in Sources */,
+				C67B76842C3EAA7800008D50 /* RegistrationViewModel.swift in Sources */,
+				C63CA0BA2C3E6EED00C56ED7 /* TurEnergy.swift in Sources */,
+				C67B76CA2C3ECDDB00008D50 /* UserCell.swift in Sources */,
+				C63CA0C82C3E6EED00C56ED7 /* TurTreaFin.swift in Sources */,
+				C67B76A52C3EB55000008D50 /* ContentViewModel.swift in Sources */,
+				C63CA0BC2C3E6EED00C56ED7 /* TurFamSocial.swift in Sources */,
+				C63CA0772C3E6E0100C56ED7 /* PolitikaApp.swift in Sources */,
+				C67B76902C3EABF100008D50 /* UserService.swift in Sources */,
+				C63CA0C22C3E6EED00C56ED7 /* TurLaborSocialSec.swift in Sources */,
+				C67B76C12C3ECDA500008D50 /* EditProfileViewModel.swift in Sources */,
+				C67B76D12C3ECFFA00008D50 /* ProfileHeaderView.swift in Sources */,
+				C63CA0B72C3E6EED00C56ED7 /* TurBank.swift in Sources */,
+				C67B769D2C3EAE0700008D50 /* PolitikaTextFieldModifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C63CA07F2C3E6E0300C56ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C63CA0802C3E6E0300C56ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C63CA0822C3E6E0300C56ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Politika/Preview Content\"";
+				DEVELOPMENT_TEAM = 253LM8A499;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karabulut.Politika;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C63CA0832C3E6E0300C56ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Politika/Preview Content\"";
+				DEVELOPMENT_TEAM = 253LM8A499;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karabulut.Politika;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C63CA06E2C3E6E0100C56ED7 /* Build configuration list for PBXProject "Politika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63CA07F2C3E6E0300C56ED7 /* Debug */,
+				C63CA0802C3E6E0300C56ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63CA0812C3E6E0300C56ED7 /* Build configuration list for PBXNativeTarget "Politika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63CA0822C3E6E0300C56ED7 /* Debug */,
+				C63CA0832C3E6E0300C56ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C63CA0842C3E6EAB00C56ED7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+		C67B76962C3EAD5400008D50 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C63CA0852C3E6EAB00C56ED7 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C63CA0842C3E6EAB00C56ED7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C63CA0872C3E6EAB00C56ED7 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C63CA0842C3E6EAB00C56ED7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		C63CA0892C3E6EAB00C56ED7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C63CA0842C3E6EAB00C56ED7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C63CA08B2C3E6EAB00C56ED7 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C63CA0842C3E6EAB00C56ED7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		C63CA08D2C3E6EAB00C56ED7 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C63CA0842C3E6EAB00C56ED7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		C63CA08F2C3E6EAB00C56ED7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C63CA0842C3E6EAB00C56ED7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C63CA0912C3E6EAB00C56ED7 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C63CA0842C3E6EAB00C56ED7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		C67B76882C3EAAFA00008D50 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C63CA0842C3E6EAB00C56ED7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		C67B76972C3EAD5400008D50 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C67B76962C3EAD5400008D50 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C63CA06B2C3E6E0100C56ED7 /* Project object */;
+}
